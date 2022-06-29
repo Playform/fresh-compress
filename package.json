@@ -1,0 +1,43 @@
+{
+	"name": "fresh-compress",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "🗜️ FreshJS Compression utilities. Compress HTML, CSS, JavaScript and more.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nhristov/fresh-compress.git"
+	},
+	"homepage": "https://github.com/nhristov/fresh-compress#readme",
+	"bugs": {
+		"url": "https://github.com/nhristov/fresh-compress/issues"
+	},
+	"author": "Nikola Hristov <nikola@playform.cloud>",
+	"license": "SEE LICENSE IN LICENSE",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"keywords": [
+		"compression",
+		"css",
+		"html",
+		"img",
+		"javascript",
+		"performance",
+		"svg"
+	],
+	"scripts": {
+		"build": "esbuild --format=esm --platform=node --target=node14 --sources-content=false --minify --outdir=dist src/index.ts && tsc"
+	},
+	"dependencies": {
+		"csso": "5.0.3",
+		"fast-glob": "3.2.11",
+		"html-minifier-terser": "6.1.0",
+		"sharp": "0.30.7",
+		"svgo": "2.8.0",
+		"terser": "5.14.1"
+	},
+	"devDependencies": {
+		"@types/node": "18.0.0",
+		"esbuild": "0.14.47",
+		"typescript": "4.7.4"
+	}
+}
