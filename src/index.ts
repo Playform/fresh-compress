@@ -1,5 +1,5 @@
-import fs from "fs";
 import FastGlob from "fast-glob";
+import fs from "fs";
 import Options from "./options";
 import IMG from "./options/img";
 
