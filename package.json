@@ -1,6 +1,6 @@
 {
 	"name": "fresh-compress",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"description": "🗜️ FreshJS Compression utilities. Compress HTML, CSS, JavaScript and more.",
 	"repository": {
