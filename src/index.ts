@@ -1,4 +1,3 @@
-import type { AstroIntegration } from "astro";
 import FastGlob from "fast-glob";
 import fs from "fs";
 import Options from "./options";
