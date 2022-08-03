@@ -5,9 +5,9 @@ import IMG from "./options/img";
 
 import { minify as csso } from "csso";
 import { minify as htmlMinifierTerser } from "html-minifier-terser";
-import { minify as terser } from "terser";
 import sharp from "sharp";
 import { optimize as svgo } from "svgo";
+import { minify as terser } from "terser";
 
 /**
  * It takes a number of bytes and returns a string with the number of bytes formatted in a human
